@@ -23,12 +23,18 @@ mysql> INSERT INTO user(user_name) VALUES('avin');
 
 Query OK, 1 row affected (0.01 sec)
 
-mysql> select * from USER
-    -> ;
+mysql> select * from USER ;
+
 +-----------+
+
 | user_name |
+
 +-----------+
+
 | Avinash   |
+
 | avin      |
+
 +-----------+
+
 2 rows in set (0.01 sec)
